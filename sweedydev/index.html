@@ -117,7 +117,7 @@
         }
       }
     </style>
-    <lottie-player src="/assets/assets/lottie/loading.json" background="transparent" style="width: 300px; position: fixed; "
+    <lottie-player src="/sweedydev/assets/assets/lottie/loading.json" background="transparent" style="width: 300px; position: fixed; "
       speed="2" loop autoplay>
     </lottie-player>
   </div>
@@ -127,10 +127,10 @@
     window.addEventListener('load', function () {
       var loading = document.querySelector('#loading');
       _flutter.loader.loadEntrypoint({
-        entrypointUrl: "/main.dart.js",
+        entrypointUrl: "/sweedydev/main.dart.js",
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
-          serviceWorkerUrl: "/flutter_service_worker.js?v=",
+          serviceWorkerUrl: "/sweedydev/flutter_service_worker.js?v=",
         }
       }).then(function (engineInitializer) {
         loading.classList.add('main_done');
